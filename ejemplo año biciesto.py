@@ -42,7 +42,20 @@ for i in range(len(testData)):
 	else:
 		print("Failed")
 
-
+output:
+PS C:\webscrapping> & C:/Users/julian.galindo/AppData/Local/Programs/Python/Python311/python.exe "c:/Users/julian.galindo/OneDrive - Escuela Politécnica Nacional/Documentos/EPN/capacitación/python essentials 2023 10 abril/tasks/ejemplo año biciesto.py"        
+1900 ->year= 1900
+biciesto= False
+OK
+2000 ->year= 2000
+biciesto= True
+OK
+2016 ->year= 2016
+biciesto= True
+OK
+1987 ->year= 1987
+biciesto= False
+OK
 """
 
 def isYearLeap(year):
