@@ -24,7 +24,7 @@ cliente["nombre"]=input("Ingresa tu nombre:")
 cliente["apellido"]=input("Ingresa tu apellido:")
 #print(cliente)
 cliente["ubicacion"]=input("Ingresa tu ubicacion:")
-cliente["edad"]=input("Ingresa tu edad:")
+cliente["edad"]=int(input("Ingresa tu edad:"))
 #print(cliente)
 
 print("los datos ingresados por el cliente son: nombre:{}, apellido:{}, ubicación:{} y la edad:{}".format(cliente["nombre"],cliente["apellido"],cliente["ubicacion"],cliente["edad"]))
